@@ -1,0 +1,24 @@
+{
+    "name": "com.scrawach.auth",
+    "displayName": "Auth",
+    "description": "Authentication Testing Package",
+    "version": "0.0.0",
+    "unity": "2023.1",
+    "licensesUrl": "See LICENSE.md",
+    "author": {
+     "name": "scrawach",
+     "email": "scrawach@gmail.com",
+     "url": "https://github.com/Scrawach"
+    },
+    "dependencies": {
+        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Scrawach/com.scrawach.auth.git"
+    },
+    "keywords": [
+     "Network",
+     "Auth"
+    ]
+   }
