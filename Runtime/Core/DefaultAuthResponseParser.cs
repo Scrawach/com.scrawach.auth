@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Networking;
 
-namespace Plugins.AuthService.Runtime
+namespace Plugins.AuthService.Runtime.Core
 {
     public class DefaultAuthResponseParser : IAuthResponseParser
     {

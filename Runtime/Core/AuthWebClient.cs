@@ -3,7 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine.Networking;
 
-namespace Plugins.AuthService.Runtime
+namespace Plugins.AuthService.Runtime.Core
 {
     public class AuthWebClient
     {

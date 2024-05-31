@@ -1,4 +1,4 @@
-﻿namespace Plugins.AuthService.Runtime
+﻿namespace Plugins.AuthService.Runtime.Core
 {
     public class AuthWebConfig : IAuthWebConfig
     {

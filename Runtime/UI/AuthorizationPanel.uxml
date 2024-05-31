@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Plugins/AuthService/com.scrawach.auth/Runtime/UI/AuthorizationPanel.uss?fileID=7433441132597879392&amp;guid=31909c4550f2b9540a38799cb505f013&amp;type=3#AuthorizationPanel" />
+    <ui:VisualElement name="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgb(219, 216, 221); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 27px; padding-right: 27px; padding-bottom: 27px; padding-left: 27px; border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-left-color: rgb(187, 154, 217); border-right-color: rgb(187, 154, 217); border-top-color: rgb(187, 154, 217); border-bottom-color: rgb(187, 154, 217);">
+            <ui:VisualElement name="sign-in-panel" style="flex-grow: 1; display: none;">
+                <ui:Label tabindex="-1" text="SIGN IN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="align-self: center; font-size: 24px; padding-bottom: 20px;" />
+                <ui:VisualElement name="Content" style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" name="login-field" placeholder-text="Login" hide-placeholder-on-focus="true" max-length="16" />
+                    <ui:TextField picking-mode="Ignore" name="password-field" placeholder-text="Password" hide-placeholder-on-focus="true" max-length="16" password="true" />
+                    <ui:Button text="LOGIN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="login-button" class="unity-button-bold" />
+                    <ui:Button text="SIGN UP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="signup-button" class="unity-button-second" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="sign-up-panel" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="SIGN UP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="align-self: center; font-size: 24px; padding-bottom: 20px;" />
+                <ui:VisualElement name="Content" style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" name="login-field" placeholder-text="Login" hide-placeholder-on-focus="true" max-length="16" />
+                    <ui:TextField picking-mode="Ignore" name="password-field" placeholder-text="Password" hide-placeholder-on-focus="true" max-length="16" password="true" />
+                    <ui:TextField picking-mode="Ignore" name="repeat-password-field" placeholder-text="Repeat Password" hide-placeholder-on-focus="true" max-length="16" password="true" />
+                    <ui:Button text="REGISTRATION" parse-escape-sequences="true" display-tooltip-when-elided="true" name="registration-button" class="unity-button-bold" />
+                    <ui:Button text="SIGN IN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="signin-button" class="unity-button-second" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

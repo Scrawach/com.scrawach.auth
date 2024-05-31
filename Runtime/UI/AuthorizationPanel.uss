@@ -1,0 +1,106 @@
+.unity-base-text-field__input {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: rgb(115, 85, 186);
+    -unity-font-style: bold;
+}
+
+.unity-text-field {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(66, 48, 111);
+    border-right-color: rgb(66, 48, 111);
+    border-top-color: rgb(66, 48, 111);
+    border-bottom-color: rgb(66, 48, 111);
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 2px;
+    transition-duration: 0.2s;
+}
+
+.unity-text-field:hover {
+    scale: 1.05 1.1;
+}
+
+.unity-base-text-field__input--placeholder {
+    color: rgba(66, 48, 111, 0.5);
+    -unity-font-style: bold-and-italic;
+}
+
+.unity-label {
+    color: rgb(115, 85, 186);
+    -unity-font-style: bold;
+}
+
+.unity-button-bold {
+    background-color: rgb(115, 85, 186);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(66, 48, 111);
+    border-right-color: rgb(66, 48, 111);
+    border-top-color: rgb(66, 48, 111);
+    border-bottom-color: rgb(66, 48, 111);
+    border-right-width: 2px;
+    border-bottom-width: 4px;
+    border-left-width: 2px;
+    border-top-width: 1px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    transition-duration: 0.2s;
+}
+
+.unity-button-bold:hover {
+    scale: 1.05 1.1;
+    background-color: rgb(134, 99, 217);
+}
+
+.unity-button-second {
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-font-style: bold;
+    color: rgb(115, 85, 186);
+    transition-duration: 0.2s;
+}
+
+.unity-button-second:hover {
+    font-size: 18px;
+    color: rgb(134, 99, 217);
+}
+
+.unity-button-bold:hover {
+    scale: 1.05 1.1;
+    background-color: rgb(134, 99, 217);
+}
+
+.unity-button-bold:focus {
+    scale: 1.05 1.1;
+    background-color: rgb(134, 99, 217);
+}
+
+.unity-button-second:focus {
+    font-size: 18px;
+    color: rgb(134, 99, 217);
+}
+
+.unity-button-bold:focus {
+    scale: 1.05 1.1;
+    background-color: rgb(134, 99, 217);
+}
+
+.unity-text-field:focus {
+    scale: 1.05 1.1;
+}
