@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="AuthorizationPanel" src="project://database/Assets/Plugins/com.scrawach.auth/Runtime/UI/AuthorizationPanel.uxml?fileID=9197481963319205126&amp;guid=9c6e0067b03182c44be7f30a526f66ff&amp;type=3#AuthorizationPanel" />
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: space-around; align-self: auto;">
+        <ui:Instance template="AuthorizationPanel" name="AuthorizationPanel" style="flex-shrink: 0; max-width: 300px; min-width: 200px; width: 300px; height: 350px;" />
+    </ui:VisualElement>
+</ui:UXML>
